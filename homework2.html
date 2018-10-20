@@ -2,7 +2,7 @@
 
   <HEAD>
     <TITLE> Programming for Entrepreneurs </TITLE>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <LINK REL="stylesheet" TYPE="text/css" href="homework2.css"> 
 
     </HEAD>
@@ -13,51 +13,63 @@
       <div id="container">
         
         <div id="header">
-          <div class="menuitem"> <a href="home.html">Home</a> </div>
+          <div class="menuitem"> <a href="#">Home</a> </div>
           <div class="menuitem"><a href="products.html">Products</a></div>
-          <div class="menuitem"><a href="cases.html">Case Studies</a></div>
           <div class="menuitem"><a href="pricing.html">Pricing</a></div>
-          <div class="menuitem"><a href="aboutus.html">About Us</a></div>
+          <div class="menuitem"><a href="AboutUs.html">About Us</a></div>
         </div>
 
         <div id="bodycontent">
-          
-          <div id="banner">
-           <div id="bannerleft"> <h1> We make you better athletes. Find out how! </h1> </div>
-           <div id="signin"> 
-             
-             <form class="well form-inline" action="login.php" method="post">
-
-              <input type="text" class="input-small" placeholder="Email"  name="email" >
-              <input type="password" class="input-small" placeholder="Password" name="password">
-              <br><br>
-
-<!--
-  If you do not want to use twitter bootstrap css then you should uncomment next 6 lines and uncomment the
-  above 2 lines that provide input boxes
-
-	    <label for="email">Email:</label>
-	    <input type="text" name="email" id="email">
-	    <br>
-	    <label for="password">Password:</label>
-	    <input type="password" name="password" id="password">
-	    <br>
-    -->
-
-    <input type="submit" name="submit" id="logmein" value="Log In">
-  </form>
-  
-</div>
-
+         <div id="bodycontent">
+          <div class="jumbotron jumbotron-fluid jumboHome">
+            <div class="container-fluid">
+            <h1>Impossible Beer</h1>
+            <h3>Changing the World, One Beer at a Time</h3>
+              <div class="row">
+              <div class="col-sm-6 headButton">
+              <p>Returning Customer?</p>
+              <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#signin" role="button">Log In</a>
+              </p>
+            </div> <!-- /col -->
+            <div class="col-sm-6 headButton">
+                <p>Don't have an Account?</p>
+                <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#signup" role="button">Sign Up</a>
+              </p>
+            </div> <!-- /col -->
+               </div> <!-- /row -->
+            </div> <!-- /container -->
+        </div> <!-- /jumbotron -->         
 </div>
 <div id="featurestrip"> 
+  <h1 class="text-center">Changing the World, One Beer at a Time</h1>
+  <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+  <div class="row">
+  	<div class="col-sm-6">
+		<div class="card">
+		  <img class="card-img-top" src="photos/barrel.jpg" alt="Card image cap">
+	</div>    
+	</div> <!-- /col -->
+    <div class="col-sm-6">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div> <!-- /col -->
+   </div> <!-- /row -->
 
-  
+  <div id="signin">    
+    <form class="well form-inline" action="login.php" method="post">
+    <input type="text" class="input-small" placeholder="Email"  name="email" >
+    <input type="password" class="input-small" placeholder="Password" name="password">
+    <br><br>
+    <input type="submit" class="btn btn-primary btn-lg" name="submit" id="logmein" value="Log In">
+    </form>
+  </div>
+
+
   <div id="signup">
 
     <form action="signup.php" method="post">
 
-     
      <label for="firstname">Firstname:</label>
      <input type="text" name="signup-firstname" id="signup-firstname">
      <br>
@@ -75,15 +87,10 @@
      <label for="password">Reconfirm Password:</label>
      <input type="password" name="signup-repassword" id="signup-repassword">
      <br><br>
-     <input type="submit" name="signmeup" id="signmeup" value="Sign Me Up!">
+     <input type="submit" class="btn btn-primary btn-lg" name="signmeup" id="signmeup" value="Sign Me Up!">
    </form>
 
  </div>
-
- <div id="featureright"> <p>Sign up and find out more on how we can help. Pricing starts at $19.95 a month. </p>
-  <p><h3>Premium service starts at $49.95.</h3></p>
-
-</div>   
 
 
 </div>
