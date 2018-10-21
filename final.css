@@ -1,0 +1,190 @@
+/* These are the main divs which partitions the website into
+various sections  */
+#container {
+/*    position: relative;
+*/    /*border:1px solid;*/
+    left:20px;
+    top:20px;
+    height:2000px;
+
+}
+.jumboAbout {
+  background: url(photos/aboutUs.jpg) no-repeat;
+  background-size: cover;
+}
+.jumboHome {
+  background: url(photos/homeJumbo.jpg) no-repeat;
+  background-size: cover;
+}
+.container-fluid h1, h3 {
+  text-align: center;
+}
+.headButton p {
+  text-align: center;
+}
+#header {
+/*    position: relative;
+*/    height: 50px;
+    padding: 10px;
+    border:1px solid;
+    background-color:#FFFEEE;
+}
+
+#bodycontent{
+    position: relative;
+/*    height:1700px;
+*/    /*border:1px solid;*/
+}
+
+#banner{
+/*    position: relative;
+*/    height:300px;
+    padding: 10px;
+    border:1px solid;
+}
+
+#bannerleft{
+/*   position: relative;
+*/   height:280px;
+   width:60%;
+   padding: 10px;
+   /*border:1px solid;*/
+   float:left;
+   background-image: url(http://www.dr-kong.com.hk/images/backgrounds/background_product-concept-pregnant_fe5e52c5cb.jpg);
+   background-position: top left;
+}
+
+#featureright{
+/*   position: relative;
+*/   height:280px;
+   width:30%;
+   padding: 10px;
+   /*border:1px solid;*/
+   float:left;
+
+}
+
+#signin{
+/*   position: relative;
+*/   height:280px;
+   width:30%;
+   padding: 10px;
+   border:0.5px solid;
+   float:left;
+}
+
+
+#signup{
+/*   position: relative;
+*/   height:280px;
+   width:60%;
+   padding: 10px;
+   /*border:1px solid;*/
+   float:left;
+}
+
+
+
+
+label{
+	font-size:18;
+}
+
+input{
+	font-size:18;
+}
+
+#logmein {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    border:none;
+}
+
+#signmeup {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    border:none;
+}
+
+
+
+#submit:hover {
+    border: none;
+    background:red;
+    box-shadow: 0px 0px 1px #777;
+
+}
+
+#featurestrip{
+/*    position: relative;
+*/    height:300px;
+    padding: 10px;
+/*    border:1px solid;
+*/
+}
+
+#corefeatures{
+/*    position: relative;
+*/    height:300px;
+    padding: 10px;
+    /*border:1px solid;*/
+
+
+}
+
+#testimonials{
+/*    position: relative;
+*/    height:300px;
+    padding: 10px;
+    /*border:1px solid;*/
+
+}
+
+
+#portfolio{
+/*    position: relative;
+*/    height:300px;
+    padding: 10px;
+    border:1px solid;
+    background-color:#FFFEEE;
+
+}
+
+#skills{
+/*    position: relative;
+*/    height:300px;
+    padding: 10px;
+    border:1px solid;
+    background-color:#FFFEEE;
+
+}
+
+#footer {
+/*    position: relative;
+*/    height: 50px;
+    padding: 10px;
+    border:1px solid;
+    background-color:#FFFEEE;
+}
+
+/* Following Divs provide the sub partitions  */
+
+.menuitem{
+    float:left;
+    width:120px;
+    padding:5px;
+    border:0px solid;
+    margin:2px;
+    background-color:#FFFEEE;
+}
+
