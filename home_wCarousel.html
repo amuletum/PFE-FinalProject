@@ -115,8 +115,9 @@
 				</div>    
 				</div> <!-- /col -->
 			   </div> <!-- /row -->
+		</div>
 
-
+		<DIV id = "corefeatures">
 	  		<div id="signin">    
 	  		  <form class="well form-inline" action="login.php" method="post">
 	  		  <input type="text" class="input-small" placeholder="Email"  name="email" >
@@ -146,17 +147,42 @@
 		    <label for="password">Reconfirm Password:</label>
 		    <input type="password" name="signup-repassword" id="signup-repassword">
 		    <br><br>
-		    <input type="submit" name="signmeup" id="signmeup" value="Sign Me Up!">
+		    <input type="submit" class="btn btn-primary btn-lg" name="signmeup" id="signmeup" value="Sign Me Up!">
 		    </form>
 
 	 		</div>
-	 	</div>
+	 	</DIV>
 
 
        	</DIV>
 
-   <DIV id="footer">&copy; Impossible Beer 2018</DIV>
 
+	</div>
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+<DIV id="footer">&copy; Impossible Beer 2018. All Rights Reserved</DIV>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
 
 </BODY>
 
