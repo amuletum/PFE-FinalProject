@@ -2,7 +2,7 @@
 various sections  */
 
 *{
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: Tahoma, Geneva, sans-serif;
 }
 
 #container {
@@ -10,6 +10,16 @@ various sections  */
     margin-top:50px;
     margin-bottom: 50px;
 }
+
+.jumbotron-fluid{
+  background: url(photos/aboutUs.jpg) no-repeat;
+  background-size: cover;
+}
+
+.container-fluid h1, h3{
+  text-align: center;
+}
+
 
 #header {
     position: fixed;
@@ -38,17 +48,6 @@ various sections  */
     height:300px;
     padding: 10px;
     border:1px solid;
-}
-
-#bannerleft{
-   position: relative;
-   height:280px;
-   width:60%;
-   padding: 10px;
-   /*border:1px solid;*/
-   float:left;
-   background-image: url(http://www.dr-kong.com.hk/images/backgrounds/background_product-concept-pregnant_fe5e52c5cb.jpg);
-   background-position: top left;
 }
 
 #featureright{
@@ -176,10 +175,7 @@ input{
     float:left;
     width:120px;
     padding:5px;
-    border:0px solid;
-    margin:2px;
-    font-weight: bold;
+/*    margin:2px;
+*/    font-weight: bold;
     font-size:20px;
 }
-
-
