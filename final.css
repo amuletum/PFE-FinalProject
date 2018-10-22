@@ -53,7 +53,7 @@ various sections  */
 #featureright{
    position: relative;
    height:280px;
-   width:30%;
+   width:100%;
    padding: 10px;
    /*border:1px solid;*/
    float:left;
