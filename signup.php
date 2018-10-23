@@ -47,7 +47,7 @@ else {
 				<br> Your Accounts Details are the Following:<br>
 				<br> First Name: $signup_firstname <br>
 				<br> Last Name: $signup_lastname <br>
-				<br> Account Email: $signup_password <br>
+				<br> Account Email: $signup_email <br>
 				<br> If you have any question, please contact us at (467) 677-4253. <br>";
 	}
 	else{
