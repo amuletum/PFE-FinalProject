@@ -71,7 +71,7 @@ various sections  */
 }
 #banner{
     position: relative;
-    height:300px;
+    height:auto;
     padding: 10px;
     border:1px solid;
 }
