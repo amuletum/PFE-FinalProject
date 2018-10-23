@@ -7,18 +7,17 @@ various sections  */
 
 #container {
     position: center;
-
 }
 
-.jumboAbout {
+.jumboAbout{
   background: url(photos/aboutUs.jpg) no-repeat;
   width: 100%;
   background-size: cover;
   height: 80vh;
 }
+
 .jumboAbout h1 {
   color:white;
-
 }
 
 .jumboProduct{
@@ -33,17 +32,6 @@ various sections  */
   color: white;
 }
 
-/*#header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 50px;
-    padding: 10px;
-    border:1px none;
-    background-color: RGBA(125, 206, 160, 0.5);
-    z-index: 10;
-}*/
-
 .navbar {
   position: fixed;
   top: 0;
@@ -51,22 +39,22 @@ various sections  */
   background-color: RGBA(125, 206, 160, 0.5);
   z-index: 99;
 }
-/*.navbar:hover {
-  background-color: RGBA(125, 174, 157, 1);  
-}*/
 
 /* White on hover to target just the link you're looking at */
 .nav-link:hover {
   color:white !important;
 }
-#nav a:hover {
+
+/*#nav a:hover {
   color: white !important;
-}
+}*/
+
 .dropStyle {
   right: 0;
   left: inherit;
   padding: 1rem;
 }
+
 #bodycontent{
     width: 100%;
     position: relative;
