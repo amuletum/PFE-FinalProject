@@ -15,21 +15,10 @@ various sections  */
 }
 #container {
     position: center;
-    margin-top:50px;
 /*    margin-bottom: 50px;
 */}
-/* Got rid of this since we're using navbar
-=======
-.jumbotron-fluid{
-  background: url(photos/aboutUs.jpg) no-repeat;
-  background-size: cover;
-}
 
-.container-fluid h1, h3{
-  text-align: center;
-}
-
-#header {
+/*#header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -38,17 +27,18 @@ various sections  */
     border:1px none;
     background-color: RGBA(125, 206, 160, 0.5);
     z-index: 10;
-}
+}*/
 
-#header:hover{
-  background-color: RGBA(125, 206, 160, 1);
-}*/
 .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
   background-color: RGBA(125, 206, 160, 0.5);
+  z-index: 99;
 }
-/*.navbar:hover {
-  background-color: rgb(125, 174, 157);  
-}*/
+.navbar:hover {
+  background-color: RGBA(125, 174, 157, 1);  
+}
 .dropStyle {
   right: 0;
   left: inherit;
@@ -58,6 +48,7 @@ various sections  */
     width: 100%;
     position: relative;
     padding:10px;
+    margin-top:50px;
     margin-bottom: 100px;
     /*border:1px solid;*/
 }
@@ -213,7 +204,6 @@ input{
     float:left;
     width:120px;
     padding:5px;
-<<<<<<< HEAD
     margin:2px;
 }
 .menuitem a {
@@ -223,10 +213,3 @@ input{
   color: rgb(125, 174, 157);
   text-decoration: none;
 }
-
-=======
-/*    margin:2px;
-*/    font-weight: bold;
-    font-size:20px;
-}
->>>>>>> b96e805f3bb50bbe61b56c514da402ed4e1db5fa
