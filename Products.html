@@ -2,80 +2,84 @@
 
   <HEAD>
     <TITLE> Impossible Beer </TITLE>
-    <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> -->
-    <!-- <LINK REL="stylesheet" TYPE="text/css" href="products.css"> --> 
+    <META name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <LINK rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <LINK REL="stylesheet" TYPE="text/css" href="final.css"> 
+  </HEAD>
 
-    </HEAD>
-    <BODY>
+  <BODY>
 
       <!-- CSS for http://the7.dream-demo.com/ -->
 
-      <div id="brandname">
+    <div id="container">
+      <div id="header">
+        <div class="menuitem"> <a href="home.html">Home</a> </div>
+        <div class="menuitem"><a href="products.html">Products</a></div>
+        <div class="menuitem"><a href="pricing.html">Pricing</a></div>
+        <div class="menuitem"><a href="Aboutus.html">About us</a></div>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="LogindropdownButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Log In
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div id="signin">
+              <form class="well form-inline" action="login.php" method="post">
+                <input type="text" class="input-small" placeholder="Email"  name="email" >
+                <input type="password" class="input-small" placeholder="Password" name="password">
+                <br><br>
+                <input type="submit" class="btn btn-primary btn-lg" name="submit" id="logmein" value="Log In">
+              </form>
+            </div> 
+          </div>
+        </div>      
+      </div>
+    </div>
 
-        <div id="impossible beer"> <h1> IMPOSSIBLE BEER </h1></div>
-
+    <div id="bodycontent">
+          
+      <div id="banner">
+        <div id="bannerleft"> <h1> We make impossible beers </h1> </div>
+        <br><br>
       </div>
 
-      <div id="container">
-        
-        <div id="header">
-          <div class="menuitem"> <a href="home.html">Home</a> </div>
-          <div class="menuitem"><a href="products.html">Products</a></div>
-          <div class="menuitem"><a href="pricing.html">Pricing</a></div>
-          <div class="menuitem"><a href="aboutus.html">About Us</a></div>
+      <div id="featurestrip"> 
+        <div id="product pic">
+          <img src="Beer served.jpg">
         </div>
+      </div>
 
-        <div id="bodycontent">
-          
-          <div id="banner">
-            <div id="bannerleft"> <h1> We make impossible beers </h1> </div>
-                         <br><br>
-          </div>
+      <div id="product feature one">
+        <div id="product feature content one">
+        <h1>Crisp beer with positive impact</h1>
+        <p> Beyond the crafted multi-fruit hop flavor, beyond the balanced maltiness lies a story as refreshing as its crisp finish. We are on a mission to repair our food system through organic regenerative farming practices and encouraging others to do the same. Cheers!</p>
         </div>
-      </div>  
+        <div id="product feature pic one">
+          <img src="Longroot beer.jpg">
+        </div>
+      </div>
 
-<div id="featurestrip"> 
-  <div id="product pic">
-<!-- to insert a brief intro pic of the product -->
-    <!-- <img width="500px" src=""> -->
-  </div>
-</div>
+      <div id="product feature two">
+        <div id="product feature pic two">
+          <img src="Hops.jpg">
+        </div>
+        <div id="product feature content two">
+          <h1>Drink responsively, drink Imposible Beer</h1>
+          <p>We believe the future of farming—not to mention our planet—lies in something called organic regenerative agriculture. Organic regenerative agriculture restores soil biodiversity, sequesters carbon, and efficiently grows crops without chemical fertilizers or pesticides.</p>
+        </div>
+      </div>
 
-<div id="product feature one">
+      <br><br>
+      <div id="brewing flowchart">
+        <img src="bear brewery process.jpg">
+      </div>
 
-  <div id="product feature content one">
-    <!-- insert write up 1 -->
-  </div>
-  <div id="product feature pic one">
-    <!-- insert product pic 1 -->
-  </div>
+      <div id="featureright"> <p>Sign up for detialed product list and subscription. Pricing starts at $29.95 a month. </p>
+      </div>   
 
-</div>
-
-<div id="product feature two">
-
-  <div id="product feature pic two">
-    <!-- insert product pic 2 -->
-  </div>
-  <div id="product feature content two">
-    <!-- insert write up 2 -->
-  </div>
-
-</div>
-
-<div id="brewing flowchart">
-    <!-- insert brweing flowchart -->
-</div>
-
-<div id="featureright"> <p>Sign up for detialed product list and subscription. Pricing starts at $29.95 a month. </p>
-</div>   
-
-
-<div id="lowerbanners"> 
- <!-- insert lowerbanner pic -->
-</div>
-
-<div id="footer">Copyright Notice. All Rights Reserved. 2018</div>
+      <div id="footer">Copyright Notice. All Rights Reserved. 2018</div>
  
 </BODY> 
 </HTML>
