@@ -1,5 +1,4 @@
-/* These are the main divs which partitions the website into
-various sections  */
+
 
 *{
   font-family: Tahoma, Geneva, sans-serif;
@@ -9,6 +8,10 @@ various sections  */
     position: center;
 }
 
+.h1, h1{
+  color: white;
+}
+
 .jumboAbout{
   background: url(photos/aboutUs.jpg) no-repeat;
   width: 100%;
@@ -16,28 +19,40 @@ various sections  */
   height: 80vh;
 }
 
-.jumboAbout h1 {
+/*.jumboAbout h1 {
   color:white;
-}
+}*/
 
 .jumboProduct{
   position: center;
-  background: url(photos/Beerserved.jpg);
+  background: url(photos/Beerserved.jpg) no-repeat;
   width: 100%;
   background-size: cover;
   height: 80vh;
 }
 
-.jumboProduct h1{
+/*.jumboProduct h1{
   color: white;
+}*/
+
+.jumboPricing{
+  position: center;
+  background: url(photos/beerRow.jpg) no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 80vh;
 }
 
-.navbar {
+.navbar{
   position: fixed;
   top: 0;
   width: 100%;
   background-color: RGBA(125, 206, 160, 0.5);
   z-index: 99;
+}
+
+.navbar:hover{
+  background-color: RGBA(125, 206, 160, 1);
 }
 
 /* White on hover to target just the link you're looking at */
