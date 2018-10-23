@@ -4,14 +4,17 @@ various sections  */
 *{
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
-
-#container {
+.jumboAbout {
+  background: url(photos/aboutUs.jpg) no-repeat;
+  background-size: cover;
+}
+/*#container {
     position: center;
     margin-top:50px;
     margin-bottom: 50px;
-}
+}*/
 
-#header {
+/*#header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -24,15 +27,29 @@ various sections  */
 
 #header:hover{
   background-color: RGBA(125, 206, 160, 1);
+}*/
+.navbar {
+  background-color: RGBA(125, 206, 160, 0.5);
 }
-
+.dropStyle {
+  right: 0;
+  left: inherit;
+  padding: 1rem;
+}
 #bodycontent{
     width: 100%;
     position: relative;
     padding:10px;
     /*border:1px solid;*/
 }
-
+.signBtn {
+  background-color: white;
+  color: RGB(125, 206, 160);
+}
+.btnUp {
+  background-color: rgb(125,206,160);
+  color:white;
+}
 #banner{
     position: relative;
     height:300px;
@@ -73,6 +90,10 @@ various sections  */
 
 #signup{
    position: relative;
+   display: block;
+   left: 19%;
+   margin-top: 1.25rem;
+   margin-bottom: 50px;
    height:280px;
    width:60%;
    padding: 10px;
@@ -136,7 +157,6 @@ input{
   position: relative;
   height:300px;
   padding: 10px;
-  border:1px solid;
 
 }
 
@@ -176,8 +196,11 @@ input{
     float:left;
     width:120px;
     padding:5px;
-    border:0px solid;
     margin:2px;
+}
+
+.menuitem a {
+    color:white;
 }
 
 
