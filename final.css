@@ -6,6 +6,7 @@ various sections  */
 }
 .jumboAbout {
   background: url(photos/aboutUs.jpg) no-repeat;
+  width: 100%;
   background-size: cover;
   height: 100vh;
 }
