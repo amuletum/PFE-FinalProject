@@ -7,14 +7,20 @@ various sections  */
 .jumboAbout {
   background: url(photos/aboutUs.jpg) no-repeat;
   background-size: cover;
+  height: 100vh;
 }
-/*#container {
+.jumboAbout h1 {
+  color:white;
+
+}
+#container {
     position: center;
     margin-top:50px;
-    margin-bottom: 50px;
-}*/
+/*    margin-bottom: 50px;
+*/}
 
-/*#header {
+/* Got rid of this since we're using navbar
+#header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -40,6 +46,7 @@ various sections  */
     width: 100%;
     position: relative;
     padding:10px;
+    margin-bottom: 100px;
     /*border:1px solid;*/
 }
 .signBtn {
@@ -161,8 +168,8 @@ input{
 }
 
 #footer {
-    position: fixed;
-    bottom: 0;
+/*    position: fixed;
+*/    bottom: 0;
     width: 100%;
     height: 50px;
     padding: 10px;
