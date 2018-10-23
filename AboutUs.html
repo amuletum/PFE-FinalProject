@@ -1,4 +1,5 @@
-<HTML>
+<!doctype HTML>
+<HTML lang="en">
 
   <HEAD>
     <TITLE> Impossible Beer </TITLE>
@@ -17,8 +18,6 @@
     <div id="container">
         
     <div id="header">
-      <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#">
       <nav class="navbar navbar-expand-lg navbar-light" id="nav">
       <a class="navbar-brand" href="home_wCarousel.html">
         <img src="photos/beer_logo.jpg" width="30" height="30" class="d-inline-block align-top" alt=""> 
@@ -42,43 +41,29 @@
               Sign In
               </button>
           <div class="dropdown-menu dropStyle">
-            <form class="px-4 py-3">
+            <form class="px-4 py-3" action="login.php" method="post">
               <div class="form-group">
-                <label for="exampleDropdownFormEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+              <label for="exampleDropdownFormEmail1">Email address</label>
+              <input type="text" class="form-control" id="exampleDropdownFormEmail1" placeholder="Email" name="email">
               </div>
-            <div class="form-group">
+              <div class="form-group">
               <label for="exampleDropdownFormPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+              <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password" name="password">
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                <label class="form-check-label" for="dropdownCheck">
+                 Remember me
+                </label>
+              </div>
+              <button id="submit" type="submit" class="btn btnUp">Sign in</button>
+            </form>
+
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="home_wCarousel.html#signup">New around here? Sign up</a>
             </div>
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="dropdownCheck">
-              <label class="form-check-label" for="dropdownCheck">
-                Remember me
-              </label>
-            </div>
-            <button type="submit" class="btn btnUp">Sign in</button>
           </form>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="home_wCarousel.html#signup">New around here? Sign up</a>
-        </div>
-          </form>
-        <form class="px-4 py-3" action="login.php" method="post">
-          <div class="form-group">
-            <label for="exampleDropdownFormEmail1">Email address</label>
-            <input type="text" class="form-control" id="exampleDropdownFormEmail1" placeholder="Email" name="email">
-          </div>
-          <div class="form-group">
-            <label for="exampleDropdownFormPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password" name="password">
-          </div>
-          <input type="submit" class="btn btnUp" type="button" name="submit" id="logmein" value="Log In">
-        </form>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#signup">New around here? Sign up</a>
-      </div>
-        </form>
-      </nav>
+        </nav>
       </div>
 
 
