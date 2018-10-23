@@ -12,7 +12,7 @@
 
       <div id="container">
         
-  <div id="header">
+    <div id="header">
     <nav class="navbar fixed-top" id="headerColor">
           <div class="menuitem"> <a href="home_wCarousel.html">Home</a> </div>
           <div class="menuitem"><a href="Products.html">Products</a></div>
@@ -42,15 +42,13 @@
           <button type="submit" class="btn btnUp">Sign in</button>
         </form>
         <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#signup">New around here? Sign up</a>
+        <a class="dropdown-item" href="home_wCarousel">New around here? Sign up</a>
       </div>
         </form>
       </div> <!-- / dropdown menu -->
     </div>
          </nav>
         </div>
-
-
 
 
         <div id="bodycontent">
@@ -69,30 +67,34 @@
 
 
 </div>
-<!-- <div id="corefeatures"> 
-
-
-
- <img height="200px" src="http://www.hockeymanitoba.ca/wp-content/uploads/2013/02/ltad-model.jpg">
-</div>
-
-<div id="testimonials"> Testimonial
-  <img height="200px" src="http://www.neuroexplosion.com/storage/development%20model%20jpeg.jpg?__SQUARESPACE_CACHEVERSION=1305662626397">
-
-  <img height="200px" src="http://www.phecanada.ca/sites/default/files/physical_literacy/LTAD_FMS.jpg">
-</div> -->
-       <!--
-       <div id="portfolio"> Portfolio</div>
-       <div id="skills"> Skills</div>
-     -->
    </div>
    
 
  </div>
 
-<div><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button></div>
 
 <DIV id="footer">&copy; Impossible Beer 2018. All Rights Reserved</DIV>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        // document.getElementById("myBtn").style.display = "block";
+        document.getElementById("headerColor").style.backgroundColor = "rgba(125,206,160)";
+    } else {
+        // document.getElementById("myBtn").style.display = "none";
+        document.getElementById("headerColor").style.backgroundColor = "rgba(125,206,160,0.5)";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
 
 </BODY> 
 </HTML>
