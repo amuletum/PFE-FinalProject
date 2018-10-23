@@ -4,20 +4,34 @@ various sections  */
 *{
   font-family: Tahoma, Geneva, sans-serif;
 }
+
+#container {
+    position: center;
+
+}
+
 .jumboAbout {
   background: url(photos/aboutUs.jpg) no-repeat;
   width: 100%;
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
 }
 .jumboAbout h1 {
   color:white;
 
 }
-#container {
-    position: center;
-/*    margin-bottom: 50px;
-*/}
+
+.jumboProduct{
+  position: center;
+  background: url(photos/Beerserved.jpg);
+  width: 100%;
+  background-size: cover;
+  height: 80vh;
+}
+
+.jumboProduct h1{
+  color: white;
+}
 
 /*#header {
     position: fixed;
@@ -70,6 +84,7 @@ various sections  */
   color: RGB(125, 206, 160);
   border: 1px solid rgb(125,206,160);
 }
+
 #banner{
     position: relative;
     height:auto;
@@ -143,15 +158,7 @@ input{
     border:none;
 }
 
-
-
-#btu btuUp:hover {
-    border: none;
-    box-shadow: 0px 0px 1px #777;
-    cursor: url('photos/beer_emoji.cur'),auto;
-}
-
-#submit:hover {
+#submit:hover{
     border: none;
     box-shadow: 0px 0px 1px #777;
     cursor: url('photos/beer_emoji.cur'),auto;
@@ -171,7 +178,7 @@ input{
 
 #footer {
 /*    position: fixed;
-*/    bottom: 0;
+*/  bottom: 0;
     width: 100%;
     height: 50px;
     padding: 10px;
