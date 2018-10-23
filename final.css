@@ -2,7 +2,7 @@
 various sections  */
 
 *{
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: Tahoma, Geneva, sans-serif;
 }
 .jumboAbout {
   background: url(photos/aboutUs.jpg) no-repeat;
@@ -18,8 +18,17 @@ various sections  */
     margin-top:50px;
 /*    margin-bottom: 50px;
 */}
-
 /* Got rid of this since we're using navbar
+=======
+.jumbotron-fluid{
+  background: url(photos/aboutUs.jpg) no-repeat;
+  background-size: cover;
+}
+
+.container-fluid h1, h3{
+  text-align: center;
+}
+
 #header {
     position: fixed;
     top: 0;
@@ -76,21 +85,10 @@ various sections  */
     border:1px solid;
 }
 
-#bannerleft{
-   position: relative;
-   height:280px;
-   width:60%;
-   padding: 10px;
-   /*border:1px solid;*/
-   float:left;
-   background-image: url(http://www.dr-kong.com.hk/images/backgrounds/background_product-concept-pregnant_fe5e52c5cb.jpg);
-   background-position: top left;
-}
-
 #featureright{
    position: relative;
    height:280px;
-   width:30%;
+   width:100%;
    padding: 10px;
    /*border:1px solid;*/
    float:left;
@@ -215,6 +213,7 @@ input{
     float:left;
     width:120px;
     padding:5px;
+<<<<<<< HEAD
     margin:2px;
 }
 .menuitem a {
@@ -225,3 +224,9 @@ input{
   text-decoration: none;
 }
 
+=======
+/*    margin:2px;
+*/    font-weight: bold;
+    font-size:20px;
+}
+>>>>>>> b96e805f3bb50bbe61b56c514da402ed4e1db5fa
