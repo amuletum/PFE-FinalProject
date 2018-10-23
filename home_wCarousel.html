@@ -14,11 +14,43 @@
 <BODY>
 
 	<div id="container">
+
 		<div id="header">
+		<nav class="navbar fixed-top" id="headerColor">
           <div class="menuitem"> <a href="home.html">Home</a> </div>
           <div class="menuitem"><a href="Products.html">Products</a></div>
           <div class="menuitem"><a href="Pricing.html">Pricing</a></div>
           <div class="menuitem"><a href="AboutUs.html">About Us</a></div>
+              <form class="form-inline my-2 my-lg-0">
+<div class="nav-item dropdown">
+    <button type="button" class="btn signBtn dropdown-toggle" data-toggle="dropdown">
+    Sign In
+  </button>
+			<div class="dropdown-menu dropStyle">
+			  <form class="px-4 py-3">
+			    <div class="form-group">
+			      <label for="exampleDropdownFormEmail1">Email address</label>
+			      <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+			    </div>
+			    <div class="form-group">
+			      <label for="exampleDropdownFormPassword1">Password</label>
+			      <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+			    </div>
+			    <div class="form-check">
+			      <input type="checkbox" class="form-check-input" id="dropdownCheck">
+			      <label class="form-check-label" for="dropdownCheck">
+			        Remember me
+			      </label>
+			    </div>
+			    <button type="submit" class="btn btnUp">Sign in</button>
+			  </form>
+			  <div class="dropdown-divider"></div>
+			  <a class="dropdown-item" href="#signup">New around here? Sign up</a>
+			</div>
+    		</form>
+			</div> <!-- / dropdown menu -->
+		</div>
+         </nav>
         </div>
         
         <DIV id = "bodycontent">
@@ -33,18 +65,18 @@
     				<div class="carousel-item active">
       					<img class="d-block w-100" src="photos/Slide1.jpg" alt="First slide">
       				<div class="carousel-caption d-none d-md-block">
-    				<h5>Impossible Beer</h5>
+    				<h1>Impossible Beer</h1>
               		<div class="row">
               		<div class="col-sm-6 headButton">
-              		<p>Returning Customer?</p>
+              		<h4>Returning Customer?</h4>
               		<p class="lead">
-                	<a class="btn btn-primary btn-lg" href="#signin" role="button">Log In</a>
+                	<a class="btn btnUp btn-lg" href="#signin" role="button">Log In</a>
               		</p>
             		</div> 
             		<div class="col-sm-6 headButton">
-                	<p>Don't have an Account?</p>
+                	<h4>Don't have an Account?</h4>
                 	<p class="lead">
-                	<a class="btn btn-primary btn-lg" href="#signup" role="button">Sign Up</a>
+                	<a class="btn btnUp btn-lg" href="#signup" role="button">Sign Up</a>
               		</p>
             		</div> 
                		</div> 
@@ -54,9 +86,9 @@
     				<div class="carousel-item">
       					<img class="d-block w-100" src="photos/Slide2.jpg" alt="Second slide">
       					<div class="carousel-caption d-none d-md-block">
-    					<h5>How we make the impossible beer</h5>
+    					<h2>How we make Impossible Beer</h2>
     					<p class="lead">
-                		<a class="btn btn-primary btn-lg" href="Products.html" role="button">The Stories of Impossible Beer</a>
+                		<a class="btn btnUp btn-lg" href="Products.html" role="button">The Stories of Impossible Beer</a>
               			</p>
   						</div>
   					</div>
@@ -64,9 +96,9 @@
     				<div class="carousel-item">
       					<img class="d-block w-100" src="photos/Slide3.jpg" alt="Third slide">
 	      				<div class="carousel-caption d-none d-md-block">
-	    				<h5>Subscribe Now</h5>
+	    				<h2>Subscribe Now</h2>
 	    				<p class="lead">
-	                	<a class="btn btn-primary btn-lg" href="Pricing.html" role="button">Learn about our Pricing</a>
+	                	<a class="btn btnUp btn-lg" href="Pricing.html" role="button">Learn about our Pricing</a>
 	              		</p> 
 	              		</div>
   					</div>
@@ -74,8 +106,9 @@
     				<div class="carousel-item">
       					<img class="d-block w-100" src="photos/Slide4.jpg" alt="Fourth slide">
 	      				<div class="carousel-caption d-none d-md-block">
+	      				<h2>Learn about our team!</h2>
 	    				<p class="lead">
-	                	<a class="btn btn-primary btn-lg" href="AboutUs.html" role="button">About Us</a>
+	                	<a class="btn btnUp btn-lg" href="AboutUs.html" role="button">About Us</a>
 	              		</p>
 	              		</div>
   					</div>
@@ -94,7 +127,7 @@
   		
 		<div id="featurestrip"> 
 			  <h1 class="text-center">Changing the World, One Beer at a Time</h1>
-			  <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+			  <h4>We developed Impossible Beer as a way to combat against the effects of climate change on the beer industry. Barley yields, one of the main ingredient in beer, are predicted to go down 15% in the next few years due to climate change. This would have caused beer shortages and an increase in beer prices. That's where we come in...</h4>
 			  <div class="row">
 			  	<div class="col-sm-6">
 					<div class="card">
@@ -102,7 +135,7 @@
 				</div>    
 				</div> <!-- /col -->
 			    <div class="col-sm-6">
-			        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			        <h5>We have developed a barley-alternative to produce our beer. It grows in all climates and won't be impacted by the effects of climate change. It is also produced sustainably so we won't be adding to global warming with our practices.</h5>
 			    </div> <!-- /col -->
 			   </div> <!-- /row -->
 			     <div class="row">
@@ -118,39 +151,50 @@
 		</div>
 
 		<DIV id = "corefeatures">
-	  		<div id="signin">    
-	  		  <form class="well form-inline" action="login.php" method="post">
-	  		  <input type="text" class="input-small" placeholder="Email"  name="email" >
-	  		  <input type="password" class="input-small" placeholder="Password" name="password">
-	  		  <br><br>
-	  		  <input type="submit" class="btn btn-primary btn-lg" name="submit" id="logmein" value="Log In">
-	  		  </form>
-	  		</div>
-	  
-		  	<div id="signup">
 
-		    <form action="signup.php" method="post">
-			<label for="firstname">Firstname:</label>
-		    <input type="text" name="signup-firstname" id="signup-firstname">
-		 	<br>
+	 	<div id="signup">
+	 		<div class="text-center"><h4>Are you new? Sign up here!</h4></div>
+			<form>
+			  <div class="form-row">
+			    <div class="form-group col-md-4">
+			      <label for="inputEmail4">Email</label>
+			      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+			    </div>
+			    <div class="form-group col-md-4">
+			      <label for="inputPassword4">Password</label>
+			      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+			    </div>
+			    <div class="form-group col-md-4">
+			      <label for="inputPassword4">Re-enter Password</label>
+			      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label for="inputAddress">Address</label>
+			    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+			  </div>
+			  <div class="form-row">
+			    <div class="form-group col-md-6">
+			      <label for="inputCity">City</label>
+			      <input type="text" class="form-control" id="inputCity">
+			    </div>
+			    <div class="form-group col-md-4">
+			      <label for="inputState">State</label>
+			      <select id="inputState" class="form-control">
+			        <option selected>Choose...</option>
+			        <option>...</option>
+			      </select>
+			    </div>
+			    <div class="form-group col-md-2">
+			      <label for="inputZip">Zip</label>
+			      <input type="text" class="form-control" id="inputZip">
+			    </div>
+			  </div>
+			  <button type="submit" class="btn btnUp">Sign Up!</button>
+			</form>
+		</div> <!-- /signup -->
 
-		    <label for="lastname">Lastname:</label>
-		    <input type="text" name="signup-lastname" id="signup-lastname">
-		    <br>
 
-		    <label for="email">Email:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-		    <input type="text" name="signup-email" id="signup-email">
-		    <br>
-		    <label for="password">Password:</label>
-		    <input type="password" name="signup-password" id="signup-password">
-		    <br>
-		    <label for="password">Reconfirm Password:</label>
-		    <input type="password" name="signup-repassword" id="signup-repassword">
-		    <br><br>
-		    <input type="submit" class="btn btn-primary btn-lg" name="signmeup" id="signmeup" value="Sign Me Up!">
-		    </form>
-
-	 		</div>
 	 	</DIV>
 
 
@@ -172,8 +216,10 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         document.getElementById("myBtn").style.display = "block";
+        document.getElementById("headerColor").style.backgroundColor = "rgba(125,206,160)";
     } else {
         document.getElementById("myBtn").style.display = "none";
+        document.getElementById("headerColor").style.backgroundColor = "rgba(125,206,160,0.5)";
     }
 }
 
