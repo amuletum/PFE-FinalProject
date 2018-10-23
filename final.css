@@ -51,8 +51,16 @@ various sections  */
   background-color: RGBA(125, 206, 160, 0.5);
   z-index: 99;
 }
-.navbar:hover {
+/*.navbar:hover {
   background-color: RGBA(125, 174, 157, 1);  
+}*/
+
+/* White on hover to target just the link you're looking at */
+.nav-link:hover {
+  color:white !important;
+}
+#nav a:hover {
+  color: white !important;
 }
 .dropStyle {
   right: 0;
@@ -134,6 +142,7 @@ input{
   font-size:18;
 }
 
+/* USING THE STYLING FOR btnUp
 #logmein {
     background-color: blue;
     -moz-border-radius: 5px;
@@ -144,7 +153,7 @@ input{
     font-size: 20px;
     text-decoration: none;
     border:none;
-}
+}*/
 
 #signmeup {
     background-color: blue;
@@ -208,16 +217,19 @@ input{
 
 /* Following Divs provide the sub partitions  */
 
-.menuitem{
+/*.menuitem{
     float:left;
     width:120px;
     padding:5px;
     margin:2px;
-}
-.menuitem a {
+}*/
+.menuitem {
     color:white;
 }
-.menuitem a:hover {
+.menuitem:hover {
   color: rgb(125, 174, 157);
   text-decoration: none;
+}
+.dropdown-item.active, .dropdown-item:active {
+  background-color: RGB(125, 206, 160);
 }

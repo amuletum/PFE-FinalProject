@@ -16,8 +16,13 @@
     <div id="container">
 
       <div id="header">
+<<<<<<< HEAD
         <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand" href="#">
+=======
+        <nav class="navbar navbar-expand-lg navbar-light" id="nav">
+          <a class="navbar-brand" href="home_wCarousel.html">
+>>>>>>> f33436221637cc8722bcdf1c13e8c4d60ad13cea
             <img src="photos/beer_logo.jpg" width="30" height="30" class="d-inline-block align-top" alt=""> 
             Impossible Beer
           </a>
@@ -39,6 +44,7 @@
               Sign In
               </button>
             <div class="dropdown-menu dropStyle">
+<<<<<<< HEAD
               <form class="px-4 py-3">
                 <div class="form-group">
                   <label for="exampleDropdownFormEmail1">Email address</label>
@@ -62,6 +68,24 @@
           </form>
         </nav>
       </div>
+=======
+        <form class="px-4 py-3" action="login.php" method="post">
+          <div class="form-group">
+            <label for="exampleDropdownFormEmail1">Email address</label>
+            <input type="text" class="form-control" id="exampleDropdownFormEmail1" placeholder="Email" name="email">
+          </div>
+          <div class="form-group">
+            <label for="exampleDropdownFormPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password" name="password">
+          </div>
+          <input type="submit" class="btn btnUp" type="button" name="submit" id="logmein" value="Log In">
+        </form>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#signup">New around here? Sign up</a>
+      </div>
+        </form>
+        </nav>
+>>>>>>> f33436221637cc8722bcdf1c13e8c4d60ad13cea
 
       <div id="bodycontent">  
         <div class="jumbotron jumbotron-fluid jumboProduct">
@@ -104,6 +128,27 @@
   </div>
 
 <DIV id="footer">&copy; Impossible Beer 2018. All Rights Reserved</DIV>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        // document.getElementById("myBtn").style.display = "block";
+        document.getElementById("nav").style.backgroundColor = "rgb(125,206,160)";
+    } else {
+        // document.getElementById("myBtn").style.display = "none";
+        document.getElementById("nav").style.backgroundColor = "rgba(125,206,160,.5)";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
 
 </BODY> 
 </HTML>
