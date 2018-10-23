@@ -37,6 +37,9 @@ various sections  */
 .navbar {
   background-color: RGBA(125, 206, 160, 0.5);
 }
+/*.navbar:hover {
+  background-color: rgb(125, 174, 157);  
+}*/
 .dropStyle {
   right: 0;
   left: inherit;
@@ -53,9 +56,18 @@ various sections  */
   background-color: white;
   color: RGB(125, 206, 160);
 }
+.signBtn:hover {
+  background-color: RGB(125, 206, 160);
+  color: #fff;
+}
 .btnUp {
   background-color: rgb(125,206,160);
   color:white;
+}
+.btnUp:hover {
+  background-color: white;
+  color: RGB(125, 206, 160);
+  border: 1px solid rgb(125,206,160);
 }
 #banner{
     position: relative;
@@ -205,9 +217,11 @@ input{
     padding:5px;
     margin:2px;
 }
-
 .menuitem a {
     color:white;
 }
-
+.menuitem a:hover {
+  color: rgb(125, 174, 157);
+  text-decoration: none;
+}
 
