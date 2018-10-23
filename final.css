@@ -145,13 +145,13 @@ input{
 
 
 
-#logmein:hover {
+#btu btuUp:hover {
     border: none;
     box-shadow: 0px 0px 1px #777;
     cursor: url('photos/beer_emoji.cur'),auto;
 }
 
-#signmeup:hover {
+#submit:hover {
     border: none;
     box-shadow: 0px 0px 1px #777;
     cursor: url('photos/beer_emoji.cur'),auto;
