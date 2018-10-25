@@ -1,3 +1,15 @@
+<HTML>
+
+<HEAD>
+	<TITLE> Impossible Beer Login </TITLE>
+	<META name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <LINK rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<LINK REL="stylesheet" TYPE="text/css" href="login.css"> 
+</HEAD>
+
+<BODY>
+
+
 <?php
 
 //connect to database
@@ -14,7 +26,7 @@ mysql_connect($mysql_hostname, $mysql_user, $mysql_password) or die("Our Server 
 
 $mysql_database = "myapp";
 
-mysql_select_db($mysql_database) or die("Our Database is Stolen by Aliens, Please Try Again Later");
+mysql_select_db($mysql_database) or die("Our Database is Stolen by Aliens, Please Try Again Later.");
 
 //data variables
 
@@ -57,3 +69,13 @@ else {
 }
 
 ?>
+
+
+<a class="btn btn-primary" href="#index.html" role="button">Return to Homepage</a>
+
+<DIV id="footer">&copy; Impossible Beer 2018. All Rights Reserved</DIV>
+
+</BODY>
+
+
+</HTML>
