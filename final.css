@@ -8,37 +8,6 @@
     position: center;
 }
 
-/*.h1, h1{
-  color: white;
-}*/
-
-.jumboAbout{
-  background: url(photos/aboutUs.jpg) no-repeat;
-  width: 100%;
-  background-size: cover;
-  height: 80vh;
-}
-.jumboAbout h1, .jumboPricing h1 {
-  color:white;
-}
-.jumboProduct{
-  position: center;
-  background: url(photos/Beerserved.jpg) no-repeat;
-  width: 100%;
-  background-size: cover;
-  height: 80vh;
-}
-.jumboProduct h1{
-  color: white;
-}
-.jumboPricing{
-  position: center;
-  background: url(photos/beerRow.jpg) no-repeat;
-  width: 100%;
-  background-size: cover;
-  height: 80vh;
-  text-align: center;
-}
 .navbar{
   position: fixed;
   top: 0;
@@ -56,10 +25,25 @@
   color:white !important;
 }
 
-.dropStyle {
-  right: 0;
-  left: inherit;
-  padding: 1rem;
+.jumboAbout{
+  background: url(photos/aboutUs.jpg) no-repeat;
+}
+
+.jumboProduct{
+  background: url(photos/Beerserved.jpg) no-repeat;
+}
+
+.jumboPricing{
+  background: url(photos/beerRow.jpg) no-repeat;
+}
+
+.jumbotron{
+  position: center;
+  width: 100%;
+  background-size: cover;
+  height: 80vh;
+  text-align: center;
+  color: white;
 }
 
 #bodycontent{
@@ -77,6 +61,7 @@
 .signBtn:hover {
   background-color: RGB(125, 206, 160);
   color: #fff;
+  border: 1px solid rgb(125,206,160);
 }
 .btnUp {
   background-color: rgb(125,206,160);
@@ -163,8 +148,8 @@ input{
 }
 
 #submit:hover{
-    border: none;
     box-shadow: 0px 0px 1px #777;
+    border: 1px solid rgb(125,206,160);
     cursor: url('photos/beer_emoji.cur'),auto;
 }
 
@@ -254,6 +239,11 @@ input{
   border: none;
 }
 
-
-
+.dropStyle {
+  right: 0;
+  left: inherit;
+  padding: 1rem;
+  width: auto;
+  height: auto;
+}
 
