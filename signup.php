@@ -8,13 +8,11 @@
 </HEAD>
 
 <BODY>
-
+<div id = "container">
 
 <?php
 
 //connect to database
-
-echo '<link rel="stylesheet" type="text/css" href="final.css">';
 
 $mysql_hostname="localhost";
 $mysql_user="root";
@@ -69,9 +67,10 @@ else {
 }
 
 ?>
-
-
-<a class="btn btn-primary" href="#index.html" role="button">Return to Homepage</a>
+</div>
+<div class = "btmbanner">
+<a class="btn btn-primary" href="index.html" role="button">Return to Homepage</a>
+</div>
 
 <DIV id="footer">&copy; Impossible Beer 2018. All Rights Reserved</DIV>
 

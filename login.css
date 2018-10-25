@@ -1,24 +1,41 @@
 
-*{
-  font-family: Tahoma, Geneva, sans-serif;
-}
-
 BODY{
 	background-image: url(photos/homeJumbo.jpg);
+	background-size: cover;
 	width: 100%;
 	opacity: 50%;
 	color: white;
-	position: relative;
+	text-align: : justify;
 	font-weight: bold;
 	font-size: 20px;
 }
 
-.btu btn-primary{
-	position: center;
-	color: RGB(125, 206, 160)
+#container{
+	padding: 50px;
+	margin-bottom: 450px;
+	font-family: "Tahoma";
 }
 
-#footer {
+.btmbanner{
+	padding: 50px;
+	position: fixed;
+	bottom: 50px;
+}
+
+.btn-primary{
+	position: center;
+	background-color: RGB(125, 206, 160);
+	color: white;
+	border: none;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: RGB(125, 206, 160);
+  border: none;
+}
+
+#footer{
 	position: fixed;
     bottom: 0;
     width: 100%;
