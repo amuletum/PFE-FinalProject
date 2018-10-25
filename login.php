@@ -70,9 +70,10 @@ else{
 
 ?> 
 
-<DIV><h3>For further assistance, please contact us at (467) 677-4253.</h3><DIV>
+<DIV><h5>For further assistance, please contact us at (467) 677-4253.</h5><DIV>
 
-<a class="btn btn-primary" href="#index.html" role="button">Return to Homepage</a>
+
+<div><a class="btn btn-primary active" href="#index.html" role="button">Return to Homepage</a></div>
 
 <DIV id="footer">&copy; Impossible Beer 2018. All Rights Reserved</DIV>
 
