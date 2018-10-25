@@ -8,9 +8,9 @@
     position: center;
 }
 
-.h1, h1{
+/*.h1, h1{
   color: white;
-}
+}*/
 
 .jumboAbout{
   background: url(photos/aboutUs.jpg) no-repeat;
@@ -18,11 +18,9 @@
   background-size: cover;
   height: 80vh;
 }
-
-/*.jumboAbout h1 {
+.jumboAbout h1, .jumboPricing h1 {
   color:white;
-}*/
-
+}
 .jumboProduct{
   position: center;
   background: url(photos/Beerserved.jpg) no-repeat;
@@ -30,11 +28,9 @@
   background-size: cover;
   height: 80vh;
 }
-
-/*.jumboProduct h1{
+.jumboProduct h1{
   color: white;
-}*/
-
+}
 .jumboPricing{
   position: center;
   background: url(photos/beerRow.jpg) no-repeat;
@@ -42,7 +38,6 @@
   background-size: cover;
   height: 80vh;
 }
-
 .navbar{
   position: fixed;
   top: 0;
@@ -236,3 +231,17 @@ input{
 .dropdown-item.active, .dropdown-item:active {
   background-color: RGB(125, 206, 160);
 }
+.textBlock, .sideImg {
+  padding:2rem;
+  border: none;
+}
+#subscriptiondropdown3 {
+  margin-left: 2rem;
+}
+.prDescript {
+  margin: 1rem;
+}
+.productHead {
+  margin-top: 5rem;
+}
+
