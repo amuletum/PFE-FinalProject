@@ -66,8 +66,8 @@
       <div id="bodycontent">  
 
         <div class="jumbotron jumbotron-fluid jumboProduct">
-          <div class="container-fluid text-center">
-          <h1>How is the Impossible Beer Made</h1>
+          <div class="container-fluid text-center align-middle productHead">
+          <h1>How the Impossible Beer is Made</h1>
           </div>
         </div>
 
@@ -97,7 +97,7 @@
           </div>
 
           <div id="brewing flowchart">
-            <img src="photos/beer brewery process.jpg">
+            <img src="photos/beer brewery process.jpg" class="mx-auto d-block mt-4">
           </div>
         </div>
       </div>
@@ -111,11 +111,11 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-        // document.getElementById("nav").style.backgroundColor = "rgb(125,206,160)";
+        // document.getElementById("myBtn").style.display = "block";
+        document.getElementById("nav").style.backgroundColor = "rgb(125,206,160)";
     } else {
-        document.getElementById("myBtn").style.display = "none";
-        // document.getElementById("nav").style.backgroundColor = "rgba(125,206,160,.5)";
+        // document.getElementById("myBtn").style.display = "none";
+        document.getElementById("nav").style.backgroundColor = "rgba(125,206,160,.5)";
     }
 }
 
