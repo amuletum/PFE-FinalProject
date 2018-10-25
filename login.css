@@ -8,12 +8,11 @@ BODY{
 	text-align: : justify;
 	font-weight: bold;
 	font-size: 20px;
+	font-family: "Tahoma";
 }
 
 #container{
 	padding: 50px;
-	margin-bottom: 450px;
-	font-family: "Tahoma";
 }
 
 .btmbanner{
