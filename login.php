@@ -8,6 +8,7 @@
 </HEAD>
 
 <BODY>
+	<div id = "container">
 
 <?php
 
@@ -69,11 +70,15 @@ else{
 }
 
 ?> 
+	</div>
 
-<DIV><h5>For further assistance, please contact us at (467) 677-4253.</h5><DIV>
+<div class = "btmbanner">
 
+<h5>For further assistance, please contact us at (467) 677-4253.</h5>
 
-<div><a class="btn btn-primary active" href="#index.html" role="button">Return to Homepage</a></div>
+<a class="btn btn-primary" href="index.html" role="button">Return to Homepage</a>
+
+</div>
 
 <DIV id="footer">&copy; Impossible Beer 2018. All Rights Reserved</DIV>
 
