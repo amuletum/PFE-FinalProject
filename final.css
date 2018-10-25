@@ -37,6 +37,7 @@
   width: 100%;
   background-size: cover;
   height: 80vh;
+  text-align: center;
 }
 .navbar{
   position: fixed;
@@ -179,6 +180,26 @@ input{
 
 }
 
+.btn-group{
+  align-content: center;
+  padding: 20px;
+
+}
+
+#plan{
+  width: 280px;
+  height: 50px;
+  text-align: center;
+}
+
+.dropdown-menu{
+  width: 280px;
+  height: 250px;
+  text-align: justify;
+  padding: 20px;
+}
+
+
 #footer {
 /*    position: fixed;
 */  bottom: 0;
@@ -217,13 +238,14 @@ input{
     padding:5px;
     margin:2px;
 }*/
-.menuitem {
+/*.menuitem {
     color:white;
 }
 .menuitem:hover {
   color: rgb(125, 174, 157);
   text-decoration: none;
-}
+}*/
+
 .dropdown-item.active, .dropdown-item:active {
   background-color: RGB(125, 206, 160);
 }
@@ -231,15 +253,7 @@ input{
   padding:2rem;
   border: none;
 }
-#subscriptiondropdown3 {
-  margin-left: 2rem;
-}
-.prDescript {
-  margin: 1rem;
-}
-.productHead {
-  margin-top: 5rem;
-}
+
 
 
 
