@@ -4,10 +4,7 @@
   font-family: Tahoma, Geneva, sans-serif;
 }
 
-#container {
-    position: center;
-}
-
+/*headers style*/
 .navbar{
   position: fixed;
   top: 0;
@@ -41,19 +38,18 @@
   position: center;
   width: 100%;
   background-size: cover;
-  height: 80vh;
+  height: 50vh;
   text-align: center;
-  color: white;
+  color: #fff;
 }
+
 
 #bodycontent{
     width: 100%;
-    position: relative;
     padding:10px;
     margin-top:50px;
-    margin-bottom: 100px;
-    /*border:1px solid;*/
 }
+
 .signBtn {
   background-color: white;
   color: RGB(125, 206, 160);
@@ -154,8 +150,8 @@ input{
 }
 
 #featurestrip{
-    position: relative;
-    padding: 10px;
+    position: center;
+    padding: 20px;
 }
 
 #corefeatures{
@@ -185,14 +181,13 @@ input{
 }
 
 
-#footer {
-/*    position: fixed;
-*/  bottom: 0;
-    width: 100%;
-    height: 50px;
-    padding: 10px;
-    border:1px none;
-    background-color: RGBA(125, 206, 160, 0.5);
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  padding: 20px;
+  background-color: RGBA(125, 206, 160, 0.5);
 }
 
 #myBtn {
