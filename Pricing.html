@@ -4,7 +4,7 @@
 <HEAD>
   <TITLE> Impossible Beer </TITLE>
   <META name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <LINK rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <LINK rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -16,9 +16,8 @@
   <div id="container">
   
     <div id="header">
-  
-      <nav class="navbar navbar-expand-lg navbar-light" id="nav">
-        <a class="navbar-brand" href="home_wCarousel.html">
+      <nav id="nav" class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">
         <img src="photos/beer_logo.jpg" width="30" height="30" class="d-inline-block align-top" alt=""> 
         Impossible Beer
         </a>
@@ -43,140 +42,83 @@
               <div class="form-group">
                 <label for="exampleDropdownFormEmail1">Email address</label>
                 <input type="text" class="form-control" id="exampleDropdownFormEmail1" placeholder="Email" name="email">
-              </div>
-              <div class="form-group">
                 <label for="exampleDropdownFormPassword1">Password</label>
                 <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password" name="password">
               </div>
               <div class="form-check">
                 <input type="checkbox" class="form-check-input" id="dropdownCheck">
-                <label class="form-check-label" for="dropdownCheck">
-                Remember me
-                </label>
+                <label class="form-check-label" for="dropdownCheck">Remember me</label>
               </div>
               <button id="submit" type="submit" class="btn btnUp">Sign in</button>
             </form>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="index.html#signup">New around here? Sign up</a>
-          </div>
+              <a class="dropdown-item" href="index.html#signup">New around here? Sign up</a>
+            </div>
         </div>
       </nav>
     </div>
 
 
-  <div id="bodycontent">
+    <div id="bodycontent">
 
-    <div class="jumbotron jumbotron-fluid jumboPricing">
-      <div class="container-fluid text-center">
-      <h1>We make impossible Beers</h1>
-      </div>
-      <br><br><br><br><br><br>
+      <div class="jumbotron jumbotron-fluid jumboPricing">
+        <div class="container-fluid text-center">
+        <h1>Get Our Beer Delivered to Your Door at One Click</h1>
+        </div>
+        <!-- <br><br><br><br><br><br> -->
+        
+
+        <div class="btn-group" role="group" aria-label="Basic example">
       
-      <!-- <div class="btn-group" role="group" aria-label="Basic example">
-    
-        <button class="btn btnUp dropdown-toggle" type="button" id="subscriptiondropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Basic Monthly Subscription
-        </button>
-        <div class="dropdown-menu" aria-labelledby="subscriptiondropdown1">
-          <div id="29.95" class="prDescript">
-            <h5>$29.95 per month</h5><br>
-            <p>8 Impossible Beers directly delivered to your address<br>
-               Enjoy the diversed flavor of future beer<br>
+          <div class="btn-group">
+          <button class="btn btnUp dropdown-toggle" type="button" id="plan" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Basic Monthly Subscription
+          </button>
+          <ul class="dropdown-menu"> 
+            <h5>$29.95 per month</h5>
+            <p>8 Impossible Beers directly delivered to you.<br>
+               Enjoy the diversed flavor of future beer.<br>
             </p>
+            <a href="index.html#signup" class="btn btn-link" role="button">Subscribe Now</a>
+          </ul>
           </div>
-        </div>
-        
-        <button class="btn btnUp dropdown-toggle" type="button" id="subscriptiondropdown2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Premium Monthly Subscription
-        </button>
-        <div class="dropdown-menu" aria-labelledby="subscriptiondropdown2">
-          <div id="39.95" class="prDescript">
-            <h5>$39.95 per month</h5><br>
-            <p>12 Impossible Beers directly delivered to your address<br>
-            Enjoy the diversed flavor of future beer<br>
+          
+          <div class="btn-group">
+          <button class="btn btnUp dropdown-toggle" type="button" id="plan" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Premium Monthly Subscription
+          </button>
+          <ul class="dropdown-menu">
+            <h5>$39.95 per month</h5>
+            <p>12 Impossible Beers directly delivered to you.<br>
+                Enjoy the diversed flavor of future beer.<br>
             </p>
+            <a href="index.html#signup" class="btn btn-link" role="button">Subscribe Now</a>
+          </ul>
           </div>
-        </div>
-        
-        <button class="btn btnUp dropdown-toggle" type="button" id="subscriptiondropdown3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Alcoholic Monthly Subscription
-        </button>
-         <div class="dropdown-menu" aria-labelledby="subscriptiondropdown3">
-          <div id="49.95" class="prDescript">
-            <h5>$49.95 per month</h5><br>
-            <p>18 Impossible Beers directly deliver to your address<br>
-            Enjoy the unlimited pleasure of being an alcoholic with a positive environment impact!<br>
+          
+          <div class="btn-group">
+          <button class="btn btnUp dropdown-toggle" type="button" id="plan" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Alcoholic Monthly Subscription
+          </button>
+           <ul class="dropdown-menu">
+            <h5>$49.95 per month</h5>
+            <p>18 Impossible Beers directly deliver to your address.<br>
+              Enjoy the unlimited pleasure of being an alcoholic with a positive environment impact!<br>
             </p>
+            <a href="index.html#signup" class="btn btn-link" role="button">Subscribe Now</a>
+          </ul>
           </div>
         </div>
-      </div> -->
-
-      <div id="Productpricingdropdown">
-        <div class="row">
 
 
-          <div class="col-sm-2">
-            <div class="subscriptiondropdownlist">
-              <button class="btn btnUp dropdown-toggle" type="button" id="subscriptiondropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Basic Monthly Subscription
-              <br>
-              </button>
-              <div class="dropdown-menu" aria-labelledby="subscriptiondropdown1">
-                <div id="29.95" class="prDescript">
-                  <h5>$29.95 per month</h5><br>
-                   <p>8 Impossible Beers directly delivered to your address<br>
-                   Enjoy the diversed flavor of future beer<br>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-sm-2">
-            <div class="subscriptiondropdownlist">  
-              <button class="btn btnUp dropdown-toggle" type="button" id="subscriptiondropdown2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Premium Monthly Subscription
-              <br>
-              </button>
-              <div class="dropdown-menu" aria-labelledby="subscriptiondropdown2">
-                <div id="39.95" class="prDescript">
-                  <h5>$39.95 per month</h5><br>
-                   <p>12 Impossible Beers directly delivered to your address<br>
-                   Enjoy the diversed flavor of future beer<br>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-2">
-            <div class="subscriptiondropdownlist">
-              <button class="btn btnUp dropdown-toggle" type="button" id="subscriptiondropdown3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Alcoholic Monthly Subscription
-              <br>
-              </button>
-              <div class="dropdown-menu" aria-labelledby="subscriptiondropdown3">
-                <div id="49.95" class="prDescript">
-                  <h5>$49.95 per month</h5><br>
-                   <p>18 Impossible Beers directly deliver to your address<br>
-                   Enjoy the unlimited pleasure of being an alcoholic with a positive environment impact!<br>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div> 
-
-        </div>
       </div>
+
     </div>
-
-  </div>
   </div>
 
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
-  <DIV id="footer">&copy; Impossible Beer 2018. All Rights Reserved</DIV>
+<DIV id="footer" class="footer">&copy; Impossible Beer 2018. All Rights Reserved</DIV>
 
 <script>
 // When the user scrolls down 20px from the top of the document, show the button

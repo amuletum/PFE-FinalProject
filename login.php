@@ -80,7 +80,7 @@ else{
 
 </div>
 
-<DIV id="footer">&copy; Impossible Beer 2018. All Rights Reserved</DIV>
+<DIV id="footer" class="footer">&copy; Impossible Beer 2018. All Rights Reserved</DIV>
 
 </BODY>
 

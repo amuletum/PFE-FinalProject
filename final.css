@@ -4,40 +4,7 @@
   font-family: Tahoma, Geneva, sans-serif;
 }
 
-#container {
-    position: center;
-}
-
-/*.h1, h1{
-  color: white;
-}*/
-
-.jumboAbout{
-  background: url(photos/aboutUs.jpg) no-repeat;
-  width: 100%;
-  background-size: cover;
-  height: 80vh;
-}
-.jumboAbout h1, .jumboPricing h1 {
-  color:white;
-}
-.jumboProduct{
-  position: center;
-  background: url(photos/Beerserved.jpg) no-repeat;
-  width: 100%;
-  background-size: cover;
-  height: 80vh;
-}
-.jumboProduct h1{
-  color: white;
-}
-.jumboPricing{
-  position: center;
-  background: url(photos/beerRow.jpg) no-repeat;
-  width: 100%;
-  background-size: cover;
-  height: 80vh;
-}
+/*headers style*/
 .navbar{
   position: fixed;
   top: 0;
@@ -55,20 +22,34 @@
   color:white !important;
 }
 
-.dropStyle {
-  right: 0;
-  left: inherit;
-  padding: 1rem;
+.jumboAbout{
+  background: url(photos/aboutUs.jpg) no-repeat;
 }
+
+.jumboProduct{
+  background: url(photos/Beerserved.jpg) no-repeat;
+}
+
+.jumboPricing{
+  background: url(photos/beerRow.jpg) no-repeat;
+}
+
+.jumbotron{
+  position: center;
+  width: 100%;
+  background-size: cover;
+  height: 50vh;
+  text-align: center;
+  color: #fff;
+}
+
 
 #bodycontent{
     width: 100%;
-    position: relative;
     padding:10px;
     margin-top:50px;
-    margin-bottom: 100px;
-    /*border:1px solid;*/
 }
+
 .signBtn {
   background-color: white;
   color: RGB(125, 206, 160);
@@ -76,6 +57,7 @@
 .signBtn:hover {
   background-color: RGB(125, 206, 160);
   color: #fff;
+  border: 1px solid rgb(125,206,160);
 }
 .btnUp {
   background-color: rgb(125,206,160);
@@ -162,14 +144,14 @@ input{
 }
 
 #submit:hover{
-    border: none;
     box-shadow: 0px 0px 1px #777;
+    border: 1px solid rgb(125,206,160);
     cursor: url('photos/beer_emoji.cur'),auto;
 }
 
 #featurestrip{
-    position: relative;
-    padding: 10px;
+    position: center;
+    padding: 20px;
 }
 
 #corefeatures{
@@ -179,14 +161,33 @@ input{
 
 }
 
-#footer {
-/*    position: fixed;
-*/  bottom: 0;
-    width: 100%;
-    height: 50px;
-    padding: 10px;
-    border:1px none;
-    background-color: RGBA(125, 206, 160, 0.5);
+.btn-group{
+  align-content: center;
+  padding: 20px;
+
+}
+
+#plan{
+  width: 280px;
+  height: 50px;
+  text-align: center;
+}
+
+.dropdown-menu{
+  width: 280px;
+  height: 250px;
+  text-align: justify;
+  padding: 20px;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  padding: 20px;
+  background-color: RGBA(125, 206, 160, 0.5);
 }
 
 #myBtn {
@@ -217,13 +218,14 @@ input{
     padding:5px;
     margin:2px;
 }*/
-.menuitem {
+/*.menuitem {
     color:white;
 }
 .menuitem:hover {
   color: rgb(125, 174, 157);
   text-decoration: none;
-}
+}*/
+
 .dropdown-item.active, .dropdown-item:active {
   background-color: RGB(125, 206, 160);
 }
@@ -231,15 +233,12 @@ input{
   padding:2rem;
   border: none;
 }
-#subscriptiondropdown3 {
-  margin-left: 2rem;
-}
-.prDescript {
-  margin: 1rem;
-}
-.productHead {
-  margin-top: 5rem;
-}
 
-
+.dropStyle {
+  right: 0;
+  left: inherit;
+  padding: 1rem;
+  width: auto;
+  height: auto;
+}
 
