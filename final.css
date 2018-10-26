@@ -27,16 +27,19 @@ p{
   color:white !important;
 }
 
-.jumboAbout{
-  background: url(photos/aboutUs.jpg) no-repeat;
-}
-
 .jumboProduct{
   background: url(photos/beerearth.jpg) no-repeat;
+  opacity: 0.8;
 }
 
 .jumboPricing{
   background: url(photos/beerRow.jpg) no-repeat;
+  opacity: 0.8;
+}
+
+.jumboAbout{
+  background: url(photos/aboutUs.jpg) no-repeat;
+  opacity: 0.8;
 }
 
 .jumbotron{
@@ -45,7 +48,7 @@ p{
   background-size: cover;
   height: 80vh;
   text-align: center;
-  color: #138D75;
+  color: black;
   font-weight: bold;
 }
 
@@ -131,6 +134,7 @@ label, input{
   width: 280px;
   height: 50px;
   text-align: center;
+  opacity: 1;
 }
 
 .dropdown-menu{
