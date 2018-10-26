@@ -4,6 +4,11 @@
   font-family: Tahoma, Geneva, sans-serif;
 }
 
+p{
+  font-family: Geneva, sans-serif
+
+}
+
 /*headers style*/
 .navbar{
   position: fixed;
@@ -27,7 +32,7 @@
 }
 
 .jumboProduct{
-  background: url(photos/Beerserved.jpg) no-repeat;
+  background: url(photos/beerearth.jpg) no-repeat;
 }
 
 .jumboPricing{
@@ -38,9 +43,10 @@
   position: center;
   width: 100%;
   background-size: cover;
-  height: 50vh;
+  height: 80vh;
   text-align: center;
-  color: #fff;
+  color: #138D75;
+  font-weight: bold;
 }
 
 
@@ -48,6 +54,32 @@
     width: 100%;
     padding:10px;
     margin-top:50px;
+    text-align: center;
+}
+
+#featurestrip{
+    padding: 50px;
+}
+
+.sideImg{
+  padding:1rem;
+  border: none;
+}
+
+h6{
+  font-weight: bold;
+}
+
+/*dropdown forms, buttons*/
+#signup{
+   display: inline-block;
+   padding: 10px;
+}
+
+#submit:hover{
+    box-shadow: 0px 0px 1px #777;
+    border: 1px solid rgb(125,206,160);
+    cursor: url('photos/beer_emoji.cur'),auto;
 }
 
 .signBtn {
@@ -71,100 +103,22 @@
   border: 1px solid rgb(125,206,160);
 }
 
-#submit:hover{
-    box-shadow: 0px 0px 1px #777;
-    border: 1px solid rgb(125,206,160);
-    cursor: url('photos/beer_emoji.cur'),auto;
+.contact{
+  margin: 20px;
+  padding: 20px;
+}
+
+.helpform{
+  display: block;
+  text-align: left;
 }
 
 .carousel-caption{
   margin-bottom: 80px;
 }
 
-#banner{
-    position: relative;
-    height:auto;
-    padding: 10px;
-    border:1px solid;
-}
-
-#featureright{
-   position: relative;
-   height:280px;
-   width:100%;
-   padding: 10px;
-   /*border:1px solid;*/
-   float:left;
-
-}
-
-#signin{
-   position: relative;
-   height:280px;
-   width:30%;
-   padding: 10px;
-   border:0.5px solid;
-   float:left;
-}
-
-
-#signup{
-   position: relative;
-   display: block;
-   left: 19%;
-   margin-top: 1.25rem;
-   margin-bottom: 50px;
-   height:280px;
-   width:60%;
-   padding: 10px;
-   /*border:1px solid;*/
-   float:left;
-}
-
-
-label{
+label, input{
   font-size:18;
-}
-
-input{
-  font-size:18;
-}
-
-/* USING THE STYLING FOR btnUp
-#logmein {
-    background-color: blue;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius:6px;
-    color: #fff;
-    font-family: 'Oswald';
-    font-size: 20px;
-    text-decoration: none;
-    border:none;
-}*/
-
-#signmeup {
-    background-color: blue;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius:6px;
-    color: #fff;
-    font-family: 'Oswald';
-    font-size: 20px;
-    text-decoration: none;
-    border:none;
-}
-
-#featurestrip{
-    padding: 50px;
-    text-align: center;
-}
-
-#corefeatures{
-  position: relative;
-  height:300px;
-  padding: 10px;
-
 }
 
 .btn-group{
@@ -184,6 +138,24 @@ input{
   height: 250px;
   text-align: justify;
   padding: 20px;
+}
+
+.dropdown-item{
+  background-color: RGB(125, 206, 160);
+  color: #fff;
+}
+
+.dropdown-item:hover{
+  color: RGB(125, 206, 160);
+  background-color:#fff;
+}
+
+.dropStyle {
+  right: 0;
+  left: inherit;
+  padding: 0.5rem;
+  width: auto;
+  height: auto;
 }
 
 
@@ -214,37 +186,5 @@ input{
 
 #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
-}
-
-/* Following Divs provide the sub partitions  */
-
-/*.menuitem{
-    float:left;
-    width:120px;
-    padding:5px;
-    margin:2px;
-}*/
-/*.menuitem {
-    color:white;
-}
-.menuitem:hover {
-  color: rgb(125, 174, 157);
-  text-decoration: none;
-}*/
-
-.dropdown-item.active, .dropdown-item:active {
-  background-color: RGB(125, 206, 160);
-}
-.textBlock, .sideImg {
-  padding:2rem;
-  border: none;
-}
-
-.dropStyle {
-  right: 0;
-  left: inherit;
-  padding: 1rem;
-  width: auto;
-  height: auto;
 }
 
